@@ -1,0 +1,35 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "patch-parcel": "patch node_modules/parcel-bundler/src/cli.js <../parcel.patch",
+    "fastpack:initial": "rm -rf node_modules/.cache && time fpack --dev -o out/fastpack src/index.js",
+    "fastpack:cache": "time fpack --dev -o out/fastpack src/index.js",
+    "fastpack:watch": "fpack watch --dev -o out/fastpack src/index.js",
+    "fastpack:benchmark": "rm -rf out && node ../benchmark.js fastpack",
+    "parcel:initial": "rm -rf .cache && time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",
+    "parcel:cache": "time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",
+    "parcel:watch": "parcel watch -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",
+    "parcel:benchmark": "rm -rf out && BUNDLER_WATCH_INITIALIZATION_DELAY=10 AFTER_FILE_MODIFICATION_DELAY=4 node ../benchmark.js parcel",
+    "webpack:initial": "time webpack --mode development --entry ./src/index.js --output-path ./out/webpack",
+    "webpack:watch": "webpack -w --mode development --entry ./src/index.js --output-path ./out/webpack",
+    "webpack:benchmark": "rm -rf out && BUNDLER_WATCH_INITIALIZATION_DELAY=10 AFTER_FILE_MODIFICATION_DELAY=4 node ../benchmark.js webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "3.9.2",
+    "fastpack": "0.8.1",
+    "lodash-es": "4.17.11",
+    "parcel-bundler": "1.11.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "recharts": "1.4.2",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.2.3"
+  }
+}

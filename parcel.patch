@@ -1,0 +1,6 @@
+117a118
+>   .option('--exit', 'exit w/o watching')
+217c218
+<   const bundler = new Bundler(main, command);
+---
+>   const bundler = new Bundler(main, {...command, ...(command.exit ? {watch: false}:{})});
