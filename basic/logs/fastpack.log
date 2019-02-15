@@ -1,0 +1,141 @@
+
+---------------------------------------------------------
+CPU:
+    Core 1 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 1 Speed: 2300
+    Core 2 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 2 Speed: 2300
+    Core 3 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 3 Speed: 2300
+    Core 4 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 4 Speed: 2300
+Memory:
+    os.totalmem(): 17179869184
+    os.freemem(): 7824437248
+Uptime: 21:48  up 2 mins, 1 user, load averages: 9.82 6.85 2.96
+
+
+---------------------------------------------------------
+Cache: empty
+Done in 0.767s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.853s
+STDERR: user	0m1.378s
+STDERR: sys	0m0.531s
+
+
+---------------------------------------------------------
+Cache: empty
+Done in 0.676s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.723s
+STDERR: user	0m0.476s
+STDERR: sys	0m0.273s
+
+
+---------------------------------------------------------
+Cache: empty
+Done in 0.694s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.738s
+STDERR: user	0m0.485s
+STDERR: sys	0m0.277s
+
+
+---------------------------------------------------------
+Cache: used
+Done in 0.132s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.175s
+STDERR: user	0m0.121s
+STDERR: sys	0m0.061s
+
+
+---------------------------------------------------------
+Cache: used
+Done in 0.134s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.175s
+STDERR: user	0m0.123s
+STDERR: sys	0m0.062s
+
+
+---------------------------------------------------------
+Cache: used
+Done in 0.133s. Bundle: 5.22Mb. Modules: 1659.
+
+STDERR: real	0m0.180s
+STDERR: user	0m0.124s
+STDERR: sys	0m0.065s
+
+
+---------------------------------------------------------
+Cache: used
+Done in 0.132s. Bundle: 5.22Mb. Modules: 1659.
+
+Starting watchman...
+Watching directory: /Users/zindel/benchmark/basic. (Ctrl+C to exit)
+
+---------------------------------------------------------
+CHECK MTIME: Initialization step 1.
+CHECK MTIME: Initialization step 2. Fully initialized
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:47 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.064s. Bundle: 5.22Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:47 GMT+0100 (CET))
+CHECK MTIME: 	98ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:50 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.056s. Bundle: 5.22Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:50 GMT+0100 (CET))
+CHECK MTIME: 	107ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:53 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.069s. Bundle: 5.23Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:53 GMT+0100 (CET))
+CHECK MTIME: 	102ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:56 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.066s. Bundle: 5.22Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:56 GMT+0100 (CET))
+CHECK MTIME: 	100ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:59 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.081s. Bundle: 5.23Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:59 GMT+0100 (CET))
+CHECK MTIME: 	112ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:49:02 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.061s. Bundle: 5.22Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:49:02 GMT+0100 (CET))
+CHECK MTIME: 	94ms since source modification

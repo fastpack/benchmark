@@ -1,0 +1,125 @@
+
+---------------------------------------------------------
+CPU:
+    Core 1 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 1 Speed: 2300
+    Core 2 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 2 Speed: 2300
+    Core 3 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 3 Speed: 2300
+    Core 4 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+    Core 4 Speed: 2300
+Memory:
+    os.totalmem(): 17179869184
+    os.freemem(): 8379695104
+Uptime: 21:56  up 3 mins, 1 user, load averages: 5.48 6.64 3.19
+
+
+---------------------------------------------------------
+✨  Built in 12.17s.
+
+out/parcel/index.js    ⚠️  5 MB    12.00s
+STDERR: real	0m12.722s
+STDERR: user	0m31.479s
+STDERR: sys	0m3.390s
+
+
+---------------------------------------------------------
+✨  Built in 9.38s.
+
+out/parcel/index.js    ⚠️  5 MB    9.25s
+STDERR: real	0m9.762s
+STDERR: user	0m24.667s
+STDERR: sys	0m2.282s
+
+
+---------------------------------------------------------
+✨  Built in 9.54s.
+
+out/parcel/index.js    ⚠️  5 MB    9.41s
+STDERR: real	0m9.920s
+STDERR: user	0m25.109s
+STDERR: sys	0m2.261s
+
+
+---------------------------------------------------------
+✨  Built in 844ms.
+
+out/parcel/index.js    ⚠️  5 MB    709ms
+STDERR: real	0m1.231s
+STDERR: user	0m1.500s
+STDERR: sys	0m0.316s
+
+
+---------------------------------------------------------
+✨  Built in 876ms.
+
+out/parcel/index.js    ⚠️  5 MB    738ms
+STDERR: real	0m1.260s
+STDERR: user	0m1.511s
+STDERR: sys	0m0.318s
+
+
+---------------------------------------------------------
+✨  Built in 827ms.
+
+out/parcel/index.js    ⚠️  5 MB    699ms
+STDERR: real	0m1.208s
+STDERR: user	0m1.464s
+STDERR: sys	0m0.299s
+
+
+---------------------------------------------------------
+✨  Built in 1.47s.
+
+---------------------------------------------------------
+CHECK MTIME: Initialization step 1.
+CHECK MTIME: Initialization step 2. Fully initialized
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:41 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:41 GMT+0100 (CET))
+CHECK MTIME: 	466ms since source modification
+✨  Built in 588ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:42 GMT+0100 (CET))
+CHECK MTIME: 	807ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:45 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:45 GMT+0100 (CET))
+CHECK MTIME: 	261ms since source modification
+✨  Built in 362ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:46 GMT+0100 (CET))
+CHECK MTIME: 	578ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:49 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:49 GMT+0100 (CET))
+CHECK MTIME: 	313ms since source modification
+✨  Built in 386ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:50 GMT+0100 (CET))
+CHECK MTIME: 	602ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:53 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:53 GMT+0100 (CET))
+CHECK MTIME: 	274ms since source modification
+✨  Built in 312ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:54 GMT+0100 (CET))
+CHECK MTIME: 	523ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:57 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:57 GMT+0100 (CET))
+CHECK MTIME: 	316ms since source modification
+✨  Built in 386ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:58 GMT+0100 (CET))
+CHECK MTIME: 	599ms since source modification
+
+---------------------------------------------------------
+CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
+CHECK MTIME: 	174ms since source modification
+✨  Built in 321ms.
+CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
+CHECK MTIME: 	435ms since source modification
