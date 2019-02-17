@@ -6,7 +6,7 @@
   `statMs` difference between the source modification and the resulting file)
 - All the tested bundlers (including fastpack!) think they are faster than they
   really are (see [logs](./basic/logs)).
-- Fastpack is still the fastest.
+- Fastpack is still the fastest!
 
 ## Basic Benchmark
 This is intended to be the simple benchmark of bundling ~1600 modules
@@ -14,9 +14,9 @@ together with no transpiling involved.
 
 |   | fastpack| parcel| webpack
 |----|:--:|:--:|:--:
-| initial build| 0.730s| 9.740s| 3.625s
-| persistent cache| 0.171s| 1.218s| N/A
-| watch mode| 0.084s| 0.503s| 0.473s
+| initial build| **0.730s**| 9.740s| 3.625s
+| persistent cache| **0.171s**| 1.218s| N/A
+| watch mode| **0.084s**| 0.503s| 0.473s
 
 [Details](./basic)
 
@@ -60,6 +60,6 @@ together with no transpiling involved.
   Linux as well. Windows version should technically be possible too, although
   requires the `time` command implementation. PRs are welcome :)
 
-## Adding test case / benchmark
+## Adding Test Case / Benchmark
 
-TBD
+*TBD*

@@ -13,8 +13,8 @@ $ yarn fastpack:benchmark
 $ yarn parcel:benchmark
 $ yarn webpack:benchmark
 ```
-Note, the `yarn patch-parcel`. It makes sure that parcel exists right after
-build is completed and not stays in the `watch` mode.
+Note, the `yarn patch-parcel`. We did that to be able to use the `time` command
+with the `parcel` development builds. Without it, parcel stays in a watch mode.
 
 ## Statistics
 
