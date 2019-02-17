@@ -42,10 +42,12 @@ if (!BUNDLERS.some(knownBundler => bundler === knownBundler)) {
   process.exit(1);
 }
 
-let plan = [{
-  title: 'System Information',
-  sysInfo: true
-}];
+let plan = [
+  {
+    title: "System Information",
+    sysInfo: true
+  }
+];
 TARGETS.forEach(target => {
   let script = `${bundler}:${target}`;
   if (packageJson.scripts && packageJson.scripts[script]) {
@@ -89,15 +91,14 @@ if (packageJson.scripts && packageJson.scripts[watch]) {
     });
   }
   walk(path.join(process.cwd(), "src"));
-  modifications.sort(
-    (m1, m2) =>
-      m1.origFile === m2.origFile
-        ? m1.index - m2.index
-        : m1.origFile.length - m2.origFile.length === 0
-          ? m1.origFile < m2.origFile
-            ? -1
-            : 1
-          : m1.origFile.length - m2.origFile.length
+  modifications.sort((m1, m2) =>
+    m1.origFile === m2.origFile
+      ? m1.index - m2.index
+      : m1.origFile.length - m2.origFile.length === 0
+      ? m1.origFile < m2.origFile
+        ? -1
+        : 1
+      : m1.origFile.length - m2.origFile.length
   );
   if (modifications.length) {
     plan.push({
@@ -132,7 +133,6 @@ if (packageJson.scripts && packageJson.scripts[watch]) {
       delay: AFTER_FILE_MODIFICATION_DELAY
     });
   });
-
 }
 
 const STDOUT = [];
@@ -151,13 +151,16 @@ function appendStderr(data) {
 
 function startOutput(title, command) {
   let line = `\n---------------------------------------------------------\n`;
-  process.stdout.write(line);
-  process.stdout.write(`ACTION: ${title}\n`);
-  if(command) {
-    process.stdout.write(`COMMAND: ${command}\n`);
-  }
+  let action = `ACTION: ${title}\n`;
+  let _command = `COMMAND: ${command}\n`;
   STDOUT.push(line);
-  STDERR.push(line);
+  process.stdout.write(line);
+  STDOUT.push(action);
+  process.stdout.write(action);
+  if (command) {
+    STDOUT.push(_command);
+    process.stdout.write(_command);
+  }
 }
 
 function completeOutput() {
@@ -225,22 +228,21 @@ function runOne(index) {
     fs.writeFileSync(filename, data);
     next();
   } else if (action.sysInfo) {
-    appendStdout('CPU:\n')
-    os.cpus().forEach(({model, speed}, i) => {
+    appendStdout("CPU:\n");
+    os.cpus().forEach(({ model, speed }, i) => {
       appendStdout(`    Core ${i + 1} Model: ${model}\n`);
       appendStdout(`    Core ${i + 1} Speed: ${speed}\n`);
     });
-    appendStdout('Memory:\n')
-    appendStdout(`    os.totalmem(): ${os.totalmem()}\n`)
-    appendStdout(`    os.freemem(): ${os.freemem()}\n`)
+    appendStdout("Memory:\n");
+    appendStdout(`    os.totalmem(): ${os.totalmem()}\n`);
+    appendStdout(`    os.freemem(): ${os.freemem()}\n`);
 
-    let uptime = spawn('uptime');
-    uptime.stdout.on('data', data => appendStdout(`Uptime: ${data}`))
-    uptime.on('close', () => {
+    let uptime = spawn("uptime");
+    uptime.stdout.on("data", data => appendStdout(`Uptime: ${data}`));
+    uptime.on("close", () => {
       completeOutput();
       next();
-    })
-
+    });
   }
 }
 
