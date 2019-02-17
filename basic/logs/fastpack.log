@@ -1,5 +1,6 @@
 
 ---------------------------------------------------------
+ACTION: System Information
 CPU:
     Core 1 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
     Core 1 Speed: 2300
@@ -11,131 +12,152 @@ CPU:
     Core 4 Speed: 2300
 Memory:
     os.totalmem(): 17179869184
-    os.freemem(): 7824437248
-Uptime: 21:48  up 2 mins, 1 user, load averages: 9.82 6.85 2.96
+    os.freemem(): 8173420544
+Uptime: 20:14  up 2 mins, 1 user, load averages: 7.98 3.96 1.61
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:initial
+COMMAND: rm -rf node_modules/.cache && time fpack --dev -o out/fastpack src/index.js
 Cache: empty
-Done in 0.767s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.793s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.853s
-STDERR: user	0m1.378s
-STDERR: sys	0m0.531s
+STDERR: real	0m0.956s
+STDERR: user	0m0.524s
+STDERR: sys	0m0.444s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:initial
+COMMAND: rm -rf node_modules/.cache && time fpack --dev -o out/fastpack src/index.js
 Cache: empty
-Done in 0.676s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.679s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.723s
-STDERR: user	0m0.476s
-STDERR: sys	0m0.273s
+STDERR: real	0m0.730s
+STDERR: user	0m1.346s
+STDERR: sys	0m0.385s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:initial
+COMMAND: rm -rf node_modules/.cache && time fpack --dev -o out/fastpack src/index.js
 Cache: empty
-Done in 0.694s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.711s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.738s
-STDERR: user	0m0.485s
-STDERR: sys	0m0.277s
+STDERR: real	0m0.765s
+STDERR: user	0m1.090s
+STDERR: sys	0m0.383s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:cache
+COMMAND: time fpack --dev -o out/fastpack src/index.js
 Cache: used
-Done in 0.132s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.131s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.175s
+STDERR: real	0m0.173s
 STDERR: user	0m0.121s
-STDERR: sys	0m0.061s
+STDERR: sys	0m0.059s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:cache
+COMMAND: time fpack --dev -o out/fastpack src/index.js
 Cache: used
-Done in 0.134s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.131s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.175s
-STDERR: user	0m0.123s
-STDERR: sys	0m0.062s
+STDERR: real	0m0.171s
+STDERR: user	0m0.120s
+STDERR: sys	0m0.058s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:cache
+COMMAND: time fpack --dev -o out/fastpack src/index.js
 Cache: used
-Done in 0.133s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.131s. Bundle: 5.22Mb. Modules: 1659.
 
-STDERR: real	0m0.180s
-STDERR: user	0m0.124s
-STDERR: sys	0m0.065s
+STDERR: real	0m0.171s
+STDERR: user	0m0.121s
+STDERR: sys	0m0.056s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s fastpack:watch
+COMMAND: fpack watch --dev -o out/fastpack src/index.js
 Cache: used
-Done in 0.132s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.130s. Bundle: 5.22Mb. Modules: 1659.
 
 Starting watchman...
 Watching directory: /Users/zindel/benchmark/basic. (Ctrl+C to exit)
 
 ---------------------------------------------------------
+ACTION: file modification controlling service
 CHECK MTIME: Initialization step 1.
 CHECK MTIME: Initialization step 2. Fully initialized
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:47 GMT+0100 (CET))
+ACTION: Modifying src/index.js using the content of src/index.js.mod
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:12 GMT+0100 (CET))
 Files changed: 
     /Users/zindel/benchmark/basic/src/index.js
 
-Done in 0.064s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.062s. Bundle: 5.22Mb. Modules: 1659.
 
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:47 GMT+0100 (CET))
-CHECK MTIME: 	98ms since source modification
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:12 GMT+0100 (CET))
+CHECK MTIME: 	84ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:50 GMT+0100 (CET))
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:15 GMT+0100 (CET))
 Files changed: 
     /Users/zindel/benchmark/basic/src/index.js
 
 Done in 0.056s. Bundle: 5.22Mb. Modules: 1659.
 
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:50 GMT+0100 (CET))
-CHECK MTIME: 	107ms since source modification
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:15 GMT+0100 (CET))
+CHECK MTIME: 	104ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:53 GMT+0100 (CET))
+ACTION: Modifying src/index.js using the content of src/index.js.mod1
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:18 GMT+0100 (CET))
 Files changed: 
     /Users/zindel/benchmark/basic/src/index.js
 
-Done in 0.069s. Bundle: 5.23Mb. Modules: 1659.
+Done in 0.070s. Bundle: 5.23Mb. Modules: 1659.
 
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:53 GMT+0100 (CET))
-CHECK MTIME: 	102ms since source modification
-
----------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:56 GMT+0100 (CET))
-Files changed: 
-    /Users/zindel/benchmark/basic/src/index.js
-
-Done in 0.066s. Bundle: 5.22Mb. Modules: 1659.
-
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:56 GMT+0100 (CET))
-CHECK MTIME: 	100ms since source modification
-
----------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:48:59 GMT+0100 (CET))
-Files changed: 
-    /Users/zindel/benchmark/basic/src/index.js
-
-Done in 0.081s. Bundle: 5.23Mb. Modules: 1659.
-
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:48:59 GMT+0100 (CET))
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:18 GMT+0100 (CET))
 CHECK MTIME: 	112ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:49:02 GMT+0100 (CET))
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:21 GMT+0100 (CET))
 Files changed: 
     /Users/zindel/benchmark/basic/src/index.js
 
-Done in 0.061s. Bundle: 5.22Mb. Modules: 1659.
+Done in 0.062s. Bundle: 5.22Mb. Modules: 1659.
 
-CHECK MTIME: out/fastpack/index.js (mtime=Fri Feb 15 2019 21:49:02 GMT+0100 (CET))
-CHECK MTIME: 	94ms since source modification
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:21 GMT+0100 (CET))
+CHECK MTIME: 	112ms since source modification
+
+---------------------------------------------------------
+ACTION: Modifying src/index.js using the content of src/index.js.mod2
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:24 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.073s. Bundle: 5.23Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:24 GMT+0100 (CET))
+CHECK MTIME: 	115ms since source modification
+
+---------------------------------------------------------
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:15:27 GMT+0100 (CET))
+Files changed: 
+    /Users/zindel/benchmark/basic/src/index.js
+
+Done in 0.056s. Bundle: 5.22Mb. Modules: 1659.
+
+CHECK MTIME: out/fastpack/index.js (mtime=Sat Feb 16 2019 20:15:27 GMT+0100 (CET))
+CHECK MTIME: 	102ms since source modification

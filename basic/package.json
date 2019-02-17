@@ -8,7 +8,7 @@
     "fastpack:initial": "rm -rf node_modules/.cache && time fpack --dev -o out/fastpack src/index.js",
     "fastpack:cache": "time fpack --dev -o out/fastpack src/index.js",
     "fastpack:watch": "fpack watch --dev -o out/fastpack src/index.js",
-    "fastpack:benchmark": "rm -rf out && node ../benchmark.js fastpack",
+    "fastpack:benchmark": "rm -rf ./out && node ../benchmark.js fastpack",
     "parcel:initial": "rm -rf .cache && time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",
     "parcel:cache": "time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",
     "parcel:watch": "parcel watch -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js",

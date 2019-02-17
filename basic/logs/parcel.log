@@ -1,5 +1,6 @@
 
 ---------------------------------------------------------
+ACTION: System Information
 CPU:
     Core 1 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
     Core 1 Speed: 2300
@@ -11,115 +12,136 @@ CPU:
     Core 4 Speed: 2300
 Memory:
     os.totalmem(): 17179869184
-    os.freemem(): 8379695104
-Uptime: 21:56  up 3 mins, 1 user, load averages: 5.48 6.64 3.19
+    os.freemem(): 8148480000
+Uptime: 20:21  up 1 min, 1 user, load averages: 14.61 6.42 2.56
 
 
 ---------------------------------------------------------
-✨  Built in 12.17s.
+ACTION: yarn -s parcel:initial
+COMMAND: rm -rf .cache && time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 13.63s.
 
-out/parcel/index.js    ⚠️  5 MB    12.00s
-STDERR: real	0m12.722s
-STDERR: user	0m31.479s
-STDERR: sys	0m3.390s
-
-
----------------------------------------------------------
-✨  Built in 9.38s.
-
-out/parcel/index.js    ⚠️  5 MB    9.25s
-STDERR: real	0m9.762s
-STDERR: user	0m24.667s
-STDERR: sys	0m2.282s
+out/parcel/index.js    ⚠️  5 MB    13.39s
+STDERR: real	0m15.009s
+STDERR: user	0m33.748s
+STDERR: sys	0m3.789s
 
 
 ---------------------------------------------------------
-✨  Built in 9.54s.
+ACTION: yarn -s parcel:initial
+COMMAND: rm -rf .cache && time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 9.35s.
 
-out/parcel/index.js    ⚠️  5 MB    9.41s
-STDERR: real	0m9.920s
-STDERR: user	0m25.109s
-STDERR: sys	0m2.261s
-
-
----------------------------------------------------------
-✨  Built in 844ms.
-
-out/parcel/index.js    ⚠️  5 MB    709ms
-STDERR: real	0m1.231s
-STDERR: user	0m1.500s
-STDERR: sys	0m0.316s
+out/parcel/index.js    ⚠️  5 MB    9.23s
+STDERR: real	0m9.740s
+STDERR: user	0m24.806s
+STDERR: sys	0m2.267s
 
 
 ---------------------------------------------------------
-✨  Built in 876ms.
+ACTION: yarn -s parcel:initial
+COMMAND: rm -rf .cache && time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 9.35s.
 
-out/parcel/index.js    ⚠️  5 MB    738ms
-STDERR: real	0m1.260s
-STDERR: user	0m1.511s
-STDERR: sys	0m0.318s
-
-
----------------------------------------------------------
-✨  Built in 827ms.
-
-out/parcel/index.js    ⚠️  5 MB    699ms
-STDERR: real	0m1.208s
-STDERR: user	0m1.464s
-STDERR: sys	0m0.299s
+out/parcel/index.js    ⚠️  5 MB    9.22s
+STDERR: real	0m9.746s
+STDERR: user	0m24.800s
+STDERR: sys	0m2.239s
 
 
 ---------------------------------------------------------
-✨  Built in 1.47s.
+ACTION: yarn -s parcel:cache
+COMMAND: time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 832ms.
+
+out/parcel/index.js    ⚠️  5 MB    696ms
+STDERR: real	0m1.218s
+STDERR: user	0m1.473s
+STDERR: sys	0m0.306s
+
 
 ---------------------------------------------------------
+ACTION: yarn -s parcel:cache
+COMMAND: time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 921ms.
+
+out/parcel/index.js    ⚠️  5 MB    765ms
+STDERR: real	0m1.336s
+STDERR: user	0m1.595s
+STDERR: sys	0m0.341s
+
+
+---------------------------------------------------------
+ACTION: yarn -s parcel:cache
+COMMAND: time parcel watch --exit -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 894ms.
+
+out/parcel/index.js    ⚠️  5 MB    752ms
+STDERR: real	0m1.287s
+STDERR: user	0m1.567s
+STDERR: sys	0m0.322s
+
+
+---------------------------------------------------------
+ACTION: yarn -s parcel:watch
+COMMAND: parcel watch -d out/parcel --no-source-maps --no-autoinstall --no-hmr src/index.js
+✨  Built in 1.54s.
+
+---------------------------------------------------------
+ACTION: file modification controlling service
 CHECK MTIME: Initialization step 1.
 CHECK MTIME: Initialization step 2. Fully initialized
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:41 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:41 GMT+0100 (CET))
-CHECK MTIME: 	466ms since source modification
-✨  Built in 588ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:42 GMT+0100 (CET))
-CHECK MTIME: 	807ms since source modification
+ACTION: Modifying src/index.js using the content of src/index.js.mod
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:11 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:11 GMT+0100 (CET))
+CHECK MTIME: 	380ms since source modification
+✨  Built in 577ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:12 GMT+0100 (CET))
+CHECK MTIME: 	733ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:45 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:45 GMT+0100 (CET))
-CHECK MTIME: 	261ms since source modification
-✨  Built in 362ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:46 GMT+0100 (CET))
-CHECK MTIME: 	578ms since source modification
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:15 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:15 GMT+0100 (CET))
+CHECK MTIME: 	276ms since source modification
+✨  Built in 364ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:16 GMT+0100 (CET))
+CHECK MTIME: 	582ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:49 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:49 GMT+0100 (CET))
-CHECK MTIME: 	313ms since source modification
-✨  Built in 386ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:50 GMT+0100 (CET))
-CHECK MTIME: 	602ms since source modification
+ACTION: Modifying src/index.js using the content of src/index.js.mod1
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:19 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:19 GMT+0100 (CET))
+CHECK MTIME: 	311ms since source modification
+✨  Built in 372ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:20 GMT+0100 (CET))
+CHECK MTIME: 	583ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:53 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:53 GMT+0100 (CET))
-CHECK MTIME: 	274ms since source modification
-✨  Built in 312ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:54 GMT+0100 (CET))
-CHECK MTIME: 	523ms since source modification
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:23 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:23 GMT+0100 (CET))
+CHECK MTIME: 	259ms since source modification
+✨  Built in 334ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:24 GMT+0100 (CET))
+CHECK MTIME: 	547ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:57:57 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:57 GMT+0100 (CET))
-CHECK MTIME: 	316ms since source modification
-✨  Built in 386ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:57:58 GMT+0100 (CET))
-CHECK MTIME: 	599ms since source modification
+ACTION: Modifying src/index.js using the content of src/index.js.mod2
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:27 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:27 GMT+0100 (CET))
+CHECK MTIME: 	352ms since source modification
+✨  Built in 399ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:28 GMT+0100 (CET))
+CHECK MTIME: 	614ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
-CHECK MTIME: 	174ms since source modification
-✨  Built in 321ms.
-CHECK MTIME: out/parcel/index.js (mtime=Fri Feb 15 2019 21:58:01 GMT+0100 (CET))
-CHECK MTIME: 	435ms since source modification
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:22:31 GMT+0100 (CET))
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:31 GMT+0100 (CET))
+CHECK MTIME: 	271ms since source modification
+✨  Built in 287ms.
+CHECK MTIME: out/parcel/index.js (mtime=Sat Feb 16 2019 20:22:32 GMT+0100 (CET))
+CHECK MTIME: 	503ms since source modification

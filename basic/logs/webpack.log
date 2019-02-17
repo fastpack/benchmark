@@ -1,5 +1,6 @@
 
 ---------------------------------------------------------
+ACTION: System Information
 CPU:
     Core 1 Model: Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
     Core 1 Speed: 2300
@@ -11,15 +12,17 @@ CPU:
     Core 4 Speed: 2300
 Memory:
     os.totalmem(): 17179869184
-    os.freemem(): 8326266880
-Uptime: 21:52  up 2 mins, 1 user, load averages: 9.40 5.33 2.22
+    os.freemem(): 8446955520
+Uptime: 20:17  up 1 min, 1 user, load averages: 15.52 6.49 2.57
 
 
 ---------------------------------------------------------
+ACTION: yarn -s webpack:initial
+COMMAND: time webpack --mode development --entry ./src/index.js --output-path ./out/webpack
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 3191ms
-Built at: 2019-02-15 21:52:26
+Time: 3393ms
+Built at: 2019-02-16 20:17:37
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
@@ -28,16 +31,18 @@ Entrypoint null = null.js
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {null} [built]
 [./src/index.js] 242 bytes {null} [built]
     + 1658 hidden modules
-STDERR: real	0m4.768s
-STDERR: user	0m5.338s
-STDERR: sys	0m0.743s
+STDERR: real	0m4.467s
+STDERR: user	0m5.428s
+STDERR: sys	0m0.629s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s webpack:initial
+COMMAND: time webpack --mode development --entry ./src/index.js --output-path ./out/webpack
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 3103ms
-Built at: 2019-02-15 21:52:31
+Time: 3101ms
+Built at: 2019-02-16 20:17:42
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
@@ -46,16 +51,18 @@ Entrypoint null = null.js
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {null} [built]
 [./src/index.js] 242 bytes {null} [built]
     + 1658 hidden modules
-STDERR: real	0m3.552s
-STDERR: user	0m4.966s
-STDERR: sys	0m0.351s
+STDERR: real	0m3.652s
+STDERR: user	0m4.907s
+STDERR: sys	0m0.368s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s webpack:initial
+COMMAND: time webpack --mode development --entry ./src/index.js --output-path ./out/webpack
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 2999ms
-Built at: 2019-02-15 21:52:36
+Time: 3170ms
+Built at: 2019-02-16 20:17:47
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
@@ -64,17 +71,19 @@ Entrypoint null = null.js
 [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {null} [built]
 [./src/index.js] 242 bytes {null} [built]
     + 1658 hidden modules
-STDERR: real	0m3.443s
-STDERR: user	0m4.656s
-STDERR: sys	0m0.353s
+STDERR: real	0m3.625s
+STDERR: user	0m4.946s
+STDERR: sys	0m0.368s
 
 
 ---------------------------------------------------------
+ACTION: yarn -s webpack:watch
+COMMAND: webpack -w --mode development --entry ./src/index.js --output-path ./out/webpack
 STDERR: webpack is watching the files…
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 3110ms
-Built at: 2019-02-15 21:52:41
+Time: 3042ms
+Built at: 2019-02-16 20:17:51
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
@@ -85,95 +94,100 @@ Entrypoint null = null.js
     + 1658 hidden modules
 
 ---------------------------------------------------------
+ACTION: file modification controlling service
 CHECK MTIME: Initialization step 1.
 CHECK MTIME: Initialization step 2. Fully initialized
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:52:50 GMT+0100 (CET))
+ACTION: Modifying src/index.js using the content of src/index.js.mod
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:01 GMT+0100 (CET))
 Hash: 4da336a09534324b18d7
 Version: webpack 4.29.3
-Time: 223ms
-Built at: 2019-02-15 21:52:50
+Time: 227ms
+Built at: 2019-02-16 20:18:01
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 506 bytes {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:52:50 GMT+0100 (CET))
-CHECK MTIME: 	555ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:01 GMT+0100 (CET))
+CHECK MTIME: 	554ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:52:54 GMT+0100 (CET))
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:05 GMT+0100 (CET))
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 168ms
-Built at: 2019-02-15 21:52:54
+Time: 175ms
+Built at: 2019-02-16 20:18:05
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 242 bytes {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:52:54 GMT+0100 (CET))
-CHECK MTIME: 	491ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:05 GMT+0100 (CET))
+CHECK MTIME: 	500ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:52:58 GMT+0100 (CET))
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:52:59 GMT+0100 (CET))
-CHECK MTIME: 	584ms since source modification
+ACTION: Modifying src/index.js using the content of src/index.js.mod1
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:09 GMT+0100 (CET))
 Hash: fb1ba62d4996932aa4da
 Version: webpack 4.29.3
-Time: 343ms
-Built at: 2019-02-15 21:52:59
+Time: 171ms
+Built at: 2019-02-16 20:18:09
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 2.36 KiB {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:52:59 GMT+0100 (CET))
-CHECK MTIME: 	667ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:09 GMT+0100 (CET))
+CHECK MTIME: 	494ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:53:02 GMT+0100 (CET))
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:13 GMT+0100 (CET))
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:13 GMT+0100 (CET))
+CHECK MTIME: 	467ms since source modification
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 153ms
-Built at: 2019-02-15 21:53:02
+Time: 228ms
+Built at: 2019-02-16 20:18:13
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 242 bytes {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:53:02 GMT+0100 (CET))
-CHECK MTIME: 	477ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:13 GMT+0100 (CET))
+CHECK MTIME: 	551ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:53:06 GMT+0100 (CET))
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:53:07 GMT+0100 (CET))
-CHECK MTIME: 	559ms since source modification
+ACTION: Modifying src/index.js using the content of src/index.js.mod2
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:17 GMT+0100 (CET))
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:17 GMT+0100 (CET))
+CHECK MTIME: 	483ms since source modification
 Hash: 744e5eaff1acd8b0d595
 Version: webpack 4.29.3
-Time: 319ms
-Built at: 2019-02-15 21:53:07
+Time: 245ms
+Built at: 2019-02-16 20:18:17
   Asset      Size  Chunks             Chunk Names
 null.js  5.89 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 4.53 KiB {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:53:07 GMT+0100 (CET))
-CHECK MTIME: 	642ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:17 GMT+0100 (CET))
+CHECK MTIME: 	566ms since source modification
 
 ---------------------------------------------------------
-CHECK MTIME: src/index.js (mtime=Fri Feb 15 2019 21:53:10 GMT+0100 (CET))
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:53:10 GMT+0100 (CET))
-CHECK MTIME: 	476ms since source modification
+ACTION: Reverting src/index.js to the original content
+CHECK MTIME: src/index.js (mtime=Sat Feb 16 2019 20:18:21 GMT+0100 (CET))
 Hash: 584fab7e47444ec986fd
 Version: webpack 4.29.3
-Time: 233ms
-Built at: 2019-02-15 21:53:11
+Time: 149ms
+Built at: 2019-02-16 20:18:21
   Asset      Size  Chunks             Chunk Names
 null.js  5.88 MiB    null  [emitted]  null
 Entrypoint null = null.js
 [./src/index.js] 242 bytes {null} [built]
     + 1661 hidden modules
-CHECK MTIME: out/webpack/null.js (mtime=Fri Feb 15 2019 21:53:11 GMT+0100 (CET))
-CHECK MTIME: 	558ms since source modification
+CHECK MTIME: out/webpack/null.js (mtime=Sat Feb 16 2019 20:18:21 GMT+0100 (CET))
+CHECK MTIME: 	473ms since source modification
